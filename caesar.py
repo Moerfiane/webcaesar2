@@ -1,4 +1,4 @@
-ef alphabet_position(character):
+def alphabet_position(character):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     lower = character.lower()
     return alphabet.index(lower)
